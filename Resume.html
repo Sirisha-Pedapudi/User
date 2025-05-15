@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sirisha Pedapudi - Resume</title>
+   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Reset and base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 850px;
+      margin: 40px auto;
+      background: #fff;
+      color: #222;
+      padding: 40px 50px;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #0b3d91;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 1.5px;
+    }
+    h2 {
+      border-bottom: 3px solid #0b3d91;
+      padding-bottom: 8px;
+      margin-top: 40px;
+      font-size: 1.7rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 20px;
+      color: #064273;
+    }
+
+    /* Header section */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0b3d91;
+      box-shadow: 0 4px 10px rgba(11, 61, 145, 0.3);
+    }
+    .header-info {
+      flex-grow: 1;
+    }
+    .header-info p {
+      margin: 6px 0;
+      font-size: 1.1rem;
+      color: #444;
+      font-weight: 600;
+    }
+    .header-info p span {
+      color: #0b3d91;
+      font-weight: 700;
+    }
+
+    /* Section styling */
+    section {
+      margin-bottom: 35px;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 1rem;
+    }
+    th, td {
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      text-align: left;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #e3e9f6;
+      color: #0b3d91;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    /* Lists */
+    ul {
+      list-style: disc inside;
+      margin-left: 20px;
+      padding: 0;
+      font-size: 1rem;
+      color: #333;
+    }
+    ul.skills-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-left: 0;
+    }
+    ul.skills-list li {
+      background-color: #0b3d91;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 25px;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(11, 61, 145, 0.5);
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+    ul.skills-list li:hover {
+      background-color: #06306f;
+    }
+
+    /* Paragraphs */
+    p {
+      font-size: 1.05rem;
+      color: #3a3a3a;
+      max-width: 100%;
+    }
+
+    /* Declaration */
+    .declaration {
+      font-style: italic;
+      font-size: 1rem;
+      color: #666;
+      border-top: 2px solid #0b3d91;
+      padding-top: 20px;
+      margin-top: 50px;
+    }
+
+    /* Signature */
+    .signature {
+      margin-top: 35px;
+      text-align: right;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #0b3d91;
+      letter-spacing: 2px;
+      font-family: 'Georgia', serif;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 25px;
+      }
+      .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .header-info p {
+        font-size: 1rem;
+      }
+      ul.skills-list {
+        justify-content: center;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img
+      class="profile-pic"
+      src="https://randomuser.me/api/portraits/women/65.jpg"
+      alt="Sirisha Pedapudi"
+    />
+    <div class="header-info">
+      <h1>SIRISHA PEDAPUDI</h1>
+      <p><span>Email:</span> sirishapedapudi52@gmail.com</p>
+      <p><span>Mobile:</span> 8985636570</p>
+      <p><span>Location:</span> Visakhapatnam, Andhra Pradesh</p>
+      <p><span>Open To Relocate</span></p>
+    </div>
+  </div>
+
+  <section>
+    <h2>CAREER OBJECTIVE</h2>
+    <p>
+      Motivated and detail-oriented Computer Science Engineering graduate seeking an entry-level position. Eager to apply strong analytical skills, problem-solving abilities, and proficiency in business tools to contribute effectively in a dynamic team environment.
+    </p>
+  </section>
+
+  <section>
+    <h2>ACADEMIC QUALIFICATIONS</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Qualification</th>
+          <th>Institution</th>
+          <th>University / Board</th>
+          <th>Year of Study</th>
+          <th>Percentage / CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Engineering (CSE)</td>
+          <td>DADI Institute of Engineering and Technology</td>
+          <td>JNTU Kakinada</td>
+          <td>2018 - 2022</td>
+          <td>7.92 CGPA</td>
+        </tr>
+        <tr>
+          <td>Intermediate (MPC)</td>
+          <td>Narayana Junior College</td>
+          <td>Board of Intermediate</td>
+          <td>2016 - 2018</td>
+          <td>76.7%</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>St Marys English Medium High School</td>
+          <td>Board of Secondary School</td>
+          <td>2015 - 2016</td>
+          <td>9.0 CGPA</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+  <h2>TECHNICAL SKILLS</h2>
+
+  <div class="skills-container">
+    <div class="skill-group">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Web Technologies</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>ReactJS</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Database Management</h3>
+      <ul>
+        <li>SQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-group">
+      <h3>Tools</h3>
+      <ul>
+        <li>MS Word</li>
+        <li>Excel</li>
+        <li>PowerPoint</li>
+        <li>Outlook</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h2>WORKSHOPS</h2>
+    <p>
+      Participated and Certified in WEB DEVELOPMENT workshop under APSSDC in Dadi Institute of Engineering and Technology.
+    </p>
+  </section>
+
+  <section>
+    <h2>PROJECT</h2>
+    <p>
+      Done a project named <strong>“SAFETY AND SECURITY CHECK”</strong> using <strong>“EMBEDDED SYSTEM”</strong>. The aim of the project is to ensure a contactless human body temperature measurement along with detecting metal objects.
+    </p>
+  </section>
+
+  <section>
+    <h2>AREAS OF INTEREST</h2>
+    <ul>
+      <li>C Programming</li>
+      <li>Database Management System</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>SOFT SKILLS</h2>
+    <ul>
+      <li>Strong analytical and problem-solving ability</li>
+      <li>Excellent attention to detail</li>
+      <li>Quick learner and adaptable to change</li>
+      <li>Ability to work independently and as part of a team</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>PERSONAL PROFILE</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Date Of Birth</strong></td>
+          <td>07/11/2000</td>
+        </tr>
+        <tr>
+          <td><strong>Gender</strong></td>
+          <td>Female</td>
+        </tr>
+        <tr>
+          <td><strong>Nationality</strong></td>
+          <td>Indian</td>
+        </tr>
+        <tr>
+          <td><strong>Languages Known</strong></td>
+          <td>Telugu, English</td>
+        </tr>
+        <tr>
+          <td><strong>Marital Status</strong></td>
+          <td>Single</td>
+        </tr>
+        <tr>
+          <td><strong>Hobbies</strong></td>
+          <td>Listening to music, Dancing, Cooking</td>
+        </tr>
+        <tr>
+          <td><strong>Address</strong></td>
+          <td>HNO24-85, Gandhinagar, Near Railway Station, Yellamanchili.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="declaration">
+    <p>
+      I do hereby declare that the above stated information is true to the best of my knowledge.
+    </p>
+    <p><strong>Place:</strong> Visakhapatnam</p>
+  </section>
+
+  <div class="signature">
+    (P. SIRISHA)
+  </div>
+</body>
+</html>
