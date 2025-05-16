@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  background: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
